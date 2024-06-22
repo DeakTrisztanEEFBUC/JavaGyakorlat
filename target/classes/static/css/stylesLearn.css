@@ -1,0 +1,13 @@
+body {
+    background-image: url("images/pxfuel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
