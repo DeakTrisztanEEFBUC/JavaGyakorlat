@@ -23,11 +23,11 @@
     <div class="row justify-content-center">
         <div class="col-md-5 mt-4">
             <div class="card">
-                <div class="card-header">Login</div>
+                <div class="card-header">Bejelentkezés</div>
                 <div class="card-body">
                     <form class="form-horizontal" action="#" th:action="@{/loginWeb}" method="POST">
                         <div class="form-group">
-                            <label for="username" class="cols-sm-2 control-label">Username</label>
+                            <label for="username" class="cols-sm-2 control-label">Felhasználónév</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="password" class="cols-sm-2 control-label">Password</label>
+                            <label for="password" class="cols-sm-2 control-label">Jelszó</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
@@ -48,7 +48,7 @@
                             <button type="submit" class="btn btn-primary btn-lg btn-block login-button" value="Login">Login</button>
                         </div>
                         <div class="login-register">
-                            <a th:href="@{/signupWeb}">Register</a>
+                            <a th:href="@{/signupWeb}">Regisztráció</a>
                             <a th:href="@{/}">Home</a>
                         </div>
                     </form>

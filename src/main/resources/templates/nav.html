@@ -20,7 +20,7 @@
                             <a class="nav-link active navbar-brand" aria-current="page" href="/">Home</a>
                         </li>
                             <li class="nav-item">
-                                <a class="nav-link" th:href="@{/contact}">Contact</a>
+                                <a class="nav-link" th:href="@{/contact}">Elérhetőség</a>
                             </li>
                     </ul>
                 </div>
@@ -30,27 +30,27 @@
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" th:href="@{/players}">Players</a>
+                            <a class="nav-link" th:href="@{/players}">Játékosok</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" th:href="@{/clubs}">Clubs</a>
+                            <a class="nav-link" th:href="@{/clubs}">Klubbok</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" th:href="@{/contact}">Contact</a>
+                            <a class="nav-link" th:href="@{/contact}">Elérhetőség</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-danger mr-sm-2" th:href="@{/logout}">Logout</a>
+                            <a class="btn btn-danger mr-sm-2" th:href="@{/logout}">Kijelentkezés</a>
                         </li>
                     </ul>
                 </div>
                 <div sec:authorize="hasRole('ROLE_ADMIN')">
                     <ul class=" navbar navbar-nav">
                         <li class="nav-item">
-                            <a class="btn btn-info mr-sm-2 mb-1" th:href="@{/userDetails}">Users</a>
+                            <a class="btn btn-info mr-sm-2 mb-1" th:href="@{/userDetails}">Felhasználók</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-info mr-sm-2 mb-1" th:href="@{/messages}">Messages</a>
+                            <a class="btn btn-info mr-sm-2 mb-1" th:href="@{/messages}">Üzenetek</a>
                         </li>
                     </ul>
                 </div>
@@ -58,12 +58,12 @@
                     <ul class=" navbar navbar-nav">
                         <li class="nav-item">
                             <a th:href="@{/loginWeb}">
-                                <button type="button" class="btn btn-primary mr-sm-2">Login</button>
+                                <button type="button" class="btn btn-primary mr-sm-2">Belépés</button>
                             </a>
                         </li>
                         <li>
                             <a th:href="@{/signupWeb}">
-                                <button type="button" class="btn btn-secondary my-2 my-sm-0">Sign Up</button>
+                                <button type="button" class="btn btn-secondary my-2 my-sm-0">Regisztráció</button>
                             </a>
                         </li>
                     </ul>

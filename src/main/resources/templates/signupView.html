@@ -15,11 +15,11 @@
     <div class="row justify-content-center">
         <div class="col-md-5 mt-4">
             <div class="card">
-                <div class="card-header">Register</div>
+                <div class="card-header">Regisztráció</div>
                 <div class="card-body">
                     <form class="form-horizontal" action="#" th:action="@{/register_process}" th:object="${reg}" method="POST">
                         <div class="form-group">
-                            <label for="name" class="cols-sm-2 control-label">Your Name</label>
+                            <label for="name" class="cols-sm-2 control-label">Név</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="email" class="cols-sm-2 control-label">Your Email</label>
+                            <label for="email" class="cols-sm-2 control-label">Email cím</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="username" class="cols-sm-2 control-label">Username</label>
+                            <label for="username" class="cols-sm-2 control-label">Felhasználónév</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="password" class="cols-sm-2 control-label">Password</label>
+                            <label for="password" class="cols-sm-2 control-label">Jelszó</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="password_confirm" class="cols-sm-2 control-label">Confirm Password</label>
+                            <label for="password_confirm" class="cols-sm-2 control-label">Jelszó megerősítése</label>
                             <div class="cols-sm-5">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
@@ -64,10 +64,10 @@
                             </div>
                         </div>
                         <div class="form-group ">
-                            <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block login-button">Regisztráció</button>
                         </div>
                         <div class="login-register">
-                            <a th:href="@{/loginWeb}">Login</a>
+                            <a th:href="@{/loginWeb}">Bejelentkezés</a>
                             <a th:href="@{/}">Home</a>
                         </div>
                     </form>
